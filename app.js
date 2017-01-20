@@ -23,7 +23,7 @@ renderer.setSize(w,h);
 //   new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load("hw_sahara/sahara_rt.tga"),side:THREE.DoubleSide}),
 //   new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load("hw_sahara/sahara_up.tga"),side:THREE.DoubleSide})
 // ]
-scene.add(skyBox)
+// scene.add(skyBox)
 
 document.body.appendChild(renderer.domElement);
 // account for window resizes
